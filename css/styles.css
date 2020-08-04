@@ -262,13 +262,31 @@ b{
 #Rvideo5{
     border-style: dashed;
     border-color: black;
-    margin: auto;
+    float: left;
+    width: 49%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Rvideo6{
+    border-style: dashed;
+    border-color: black;
+    float: right;
     width: 49%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #Mvideo1{
+    border-style: dashed;
+    border-color: black;
+    margin: auto;
+    width: 49%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Tvideo1{
     border-style: dashed;
     border-color: black;
     margin: auto;
@@ -335,7 +353,9 @@ footer{
     #Rvideo3,
     #Rvideo4,
     #Rvideo5,
-    #Mvideo1{
+    #Rvideo6,
+    #Mvideo1,
+    #Tvideo1{
         width: 100%;
         float: none;
         padding: 2px;
@@ -348,7 +368,9 @@ footer{
     #Rvideo3 h3,
     #Rvideo4 h3,
     #Rvideo5 h3,
-    #Mvideo1 h3{
+    #Rvideo6 h3,
+    #Mvideo1 h3,
+    #Tvideo1 h3,{
         font-size: 35px;
         text-align: center;
     }
@@ -358,6 +380,7 @@ footer{
     #Rvideo3 li,
     #Rvideo4 li,
     #Rvideo5 li,
+    #Rvideo6 li,
     #Mvideo1 li{
         font-size: 20px;
         padding-right: 3px;
